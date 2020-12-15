@@ -429,3 +429,14 @@ figure.testimonial .peopl h3 {
 .slick-next:before {
 	content: "";
 }
+
+/* ------------------------------------------------------------------------------ */
+/*  I added this to make the left button invisible since it doesn't work anyway,  */
+/*  you can remove it if you figure out how to make it functional                 */
+/* ------------------------------------------------------------------------------ */
+
+.slick-prev {
+	opacity: 0%;
+}
+
+/* ------------------------------------------------------------------------------ */
