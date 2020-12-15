@@ -16,14 +16,14 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* font families */
+/* ___________________ font families ___________________ */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
 
 
-/* hoofd afbeeilding */
+/* ___________________ hoofd afbeeilding ___________________ */
 
 
 #mainimg {
@@ -31,7 +31,7 @@ a {
 }
 
 
-/* collectie en reviews css */
+/* ___________________ collectie en reviews css ___________________ */
 
 
 .collectie-en-reviews {
@@ -39,7 +39,7 @@ a {
 }
 
 
-/* over lam tekst */
+/* ___________________ over lam tekst ___________________ */
 
 
 * {
@@ -60,7 +60,7 @@ a {
 }
 
 
-/* video css */
+/* ___________________ video css ___________________ */
 
 
 .video {
@@ -71,7 +71,7 @@ a {
 }
 
 
-/* scrollbar css */
+/* ___________________ scrollbar css ___________________ */
 
 
 ::-webkit-scrollbar {
@@ -79,7 +79,7 @@ a {
 }
 
 
-/* navigatie menu */
+/* ___________________ navigatie menu ___________________ */
 
 
 .logo {
@@ -90,7 +90,7 @@ a {
   position: absolute;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.721);
-  width: 99%;
+  width: 100%;
 }
 .topnav #myLinks {
   display: none;
@@ -106,12 +106,14 @@ a {
   display: flex;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  
 }
 .topnav a.icon {
-  display: block;
   position: absolute;
   right: 0;
   top: 0;
+  padding: 0vw 1vw 0vw 0vw;
+  margin: 0;
 }
 .topnav a:hover {
   color: black;
@@ -121,12 +123,13 @@ a {
 }
 
 
-/* navigatie bar animation */
+/* ___________________ navigatie bar animation ___________________ */
 
 
 .container {
   cursor: pointer;
   float: right;
+  margin-top: -1vw;
 }
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -148,7 +151,7 @@ a {
 }
 
 
-/* footer */
+/* ___________________ footer ___________________ */
 
 
 footer p {
