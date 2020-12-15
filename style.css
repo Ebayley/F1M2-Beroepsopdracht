@@ -31,6 +31,59 @@ a {
 }
 
 
+/* ___________________ tekst blok ___________________ */
+
+
+.middle {
+	position: relative;
+	color: white;
+}
+.text p {
+	text-align: left;
+}
+.text {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 3vw 4vw 0vw 4vw;
+	margin-right: 2vw;
+	background-color: rgba(0, 0, 0, 0.836);
+	clip-path: rectangle(0 0, 100% 0%, 87% 100%, 0% 100%);
+	font-size: 1.2em;
+}
+h2{
+	text-align: center;
+	padding-top: 1vw;	
+}
+.button {
+	/* ______________ button looks ______________ */
+
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 2vw;
+	color: black;
+	font-family: 'Montserrat', sans-serif;;
+	background-color: white;
+
+	/* ______________ button position ______________ */
+
+	top: 56%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	clip-path: rectangle(0 0, 100% 0%, 87% 100%, 0% 100%);
+	padding: 2vw 2vw 2vw 2vw;
+	position: absolute;
+	width: 48.04vw;
+}
+.button:hover {
+	color: rgb(255, 255, 255);
+	background-color: black;
+}
+
+
 /* ___________________ collectie en reviews css ___________________ */
 
 
@@ -106,7 +159,6 @@ a {
   display: flex;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  
 }
 .topnav a.icon {
   position: absolute;
@@ -161,7 +213,7 @@ footer p {
 }
 
 
-/* _____________________ reviews ___________________*/
+/* _____________________ reviews ___________________ */
 
 
 html {
@@ -389,27 +441,3 @@ figure.testimonial .peopl h3 {
 .slick-next:before {
 	content: "";
 }
-
-
-
-/* 
-
-tekst blok
-
-.middle {
-  position: relative;
-  text-align: left;
-  color: white;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 5em 3em 5em 2em;
-  background-color: rgba(0, 0, 0, 0.836);
-  clip-path: rectangle(0 0, 100% 0%, 87% 100%, 0% 100%);
-  font-size: 1.2em;
-} */
