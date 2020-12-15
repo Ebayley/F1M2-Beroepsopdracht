@@ -6,3 +6,7 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+function secondFunction(a) {
+  a.classList.toggle("change");
+} 

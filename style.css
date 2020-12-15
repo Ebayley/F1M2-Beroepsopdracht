@@ -6,36 +6,39 @@ body {
 h1 {
   margin: 0px;
   color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 p {
   margin: 0px;
   color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
 
-.logo {
-  width: 150px;
-  padding: 1em;
-}
-
-* {
-  box-sizing: border-box;
-}
+/* hoofd afbeeilding */
 
 #mainimg {
   position: relative;
 }
 
-.container {
+/* .container {
   height: 5em;
   position: absolute;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.721);
   width: 99%;
-}
+} */
+
+/* collectie en reviews css */
 
 .collectie-en-reviews {
   background-color: rgb(54, 54, 54);
+}
+
+/* over lam tekst */
+
+* {
+  box-sizing: border-box;
 }
 
 .column {
@@ -54,15 +57,26 @@ p {
   padding: 1em 0em 0em 1em;
 }
 
+/* video css */
+
 .video {
   display: block;
   margin: 0 auto;  
-  background-color: 	rgb(155, 111, 83);
-  width: 96%;
-}
+  /* background-color: 	rgb(155, 111, 83); */
+  width: 96%
+};
+
+/* scrollbar css */
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+/* navigatie menu */
+
+.logo {
+  width: 150px;
+  padding: 1em;
 }
 
 .topnav {
@@ -76,12 +90,16 @@ p {
   display: none;
 }
 
+#myLinks a:hover {
+  background-color: #ddd;
+}
+
 .topnav a {
   color: white;
   padding: 1em 1.5em;
   text-decoration: none;
   font-size: 1.5em;
-  display: block;
+  display: flex;
   font-family: sans-serif
 }
 
@@ -93,7 +111,6 @@ p {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
   color: black;
 }
 
@@ -101,4 +118,49 @@ p {
   color: white;
 }
 
+/* navigatie bar animation */
 
+.container {
+  cursor: pointer;
+  float: right;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.918);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* einde navigatie menu */
+
+/* .middle {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 5em 3em 5em 2em;
+  background-color: rgba(0, 0, 0, 0.836);
+  clip-path: rectangle(0 0, 100% 0%, 87% 100%, 0% 100%);
+  font-size: 1.2em;
+} */
