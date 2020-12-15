@@ -1,4 +1,7 @@
-  
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+
 body {
   background-color: rgb(0, 0, 0);
 }
@@ -15,12 +18,6 @@ p {
 a {
   font-family: 'Montserrat', sans-serif;
 }
-
-/* ___________________ font families ___________________ */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
 
 
 /* ___________________ hoofd afbeeilding ___________________ */
@@ -50,7 +47,6 @@ a {
 	padding: 3vw 4vw 0vw 4vw;
 	margin-right: 2vw;
 	background-color: rgba(0, 0, 0, 0.836);
-	clip-path: rectangle(0 0, 100% 0%, 87% 100%, 0% 100%);
 	font-size: 1.2em;
 }
 h2{
@@ -73,7 +69,6 @@ h2{
 	top: 56%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	clip-path: rectangle(0 0, 100% 0%, 87% 100%, 0% 100%);
 	padding: 2vw 2vw 2vw 2vw;
 	position: absolute;
 	width: 48.04vw;
@@ -166,23 +161,16 @@ h2{
   top: 0;
   padding: 0vw 1vw 0vw 0vw;
   margin: 0;
+  margin-top: -1vw;
 }
 .topnav a:hover {
   color: black;
-}
-.active {
-  color: white;
 }
 
 
 /* ___________________ navigatie bar animation ___________________ */
 
 
-.container {
-  cursor: pointer;
-  float: right;
-  margin-top: -1vw;
-}
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
