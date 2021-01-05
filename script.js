@@ -1,4 +1,4 @@
-// nav
+//------------- Nav --------------------------------
 
 function myFunction() {
   var x = document.getElementById("myLinks");
@@ -13,7 +13,8 @@ function secondFunction(a) {
   a.classList.toggle("change");
 }
 
-// reviews
+
+//------------- Reviews -----------------------------
 
 $(document).ready(function () {
 	$('.testiSlide').slick({
