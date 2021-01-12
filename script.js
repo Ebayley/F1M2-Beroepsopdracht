@@ -1,4 +1,4 @@
-//------------- Nav --------------------------------
+//----------------------------- Nav --------------------------------
 
 function myFunction() {
   var x = document.getElementById("myLinks");
@@ -14,7 +14,7 @@ function secondFunction(a) {
 }
 
 
-//------------- Reviews -----------------------------
+//---------------------------- Reviews -----------------------------
 
 $(document).ready(function () {
 	$('.testiSlide').slick({
@@ -33,7 +33,7 @@ $(document).ready(function () {
 	});
 });
 
-//------------- Back to top button -----------------------------
+//------------------------- Back to top button -----------------------------
 
 var btn = $('#button');
 
@@ -49,3 +49,5 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+//-------------------------- Google Maps -----------------------------
