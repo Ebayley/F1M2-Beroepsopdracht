@@ -36,7 +36,7 @@ a {
 	color: white;
 }
 .text p {
-	text-align: left;
+	text-align: center;
 }
 .text {
 	position: absolute;
@@ -47,7 +47,8 @@ a {
 	padding: 3vw 4vw 0vw 4vw;
 	margin-right: 2vw;
 	background-color: rgba(0, 0, 0, 0.836);
-	font-size: 1.2em;
+	font-size: 1.25em;
+	text-align: center;
 }
 h2{
 	text-align: center;
