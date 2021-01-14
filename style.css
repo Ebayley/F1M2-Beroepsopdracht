@@ -132,8 +132,10 @@ h2{
 
 /* Caption text */
 .text1 {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px #ffffff;
+  text-decoration: overline;
+  font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
