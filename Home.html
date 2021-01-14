@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
   <title>LAM</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="LAM">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link class="logo" rel="icon" href="img/logo.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
-<!-------------------------- Bovenste gedeelte met de nav -------------------------------->
+<!-------------------------- Bovenste gedeelte met de nav met logo -------------------------------->
 
   <header>
     <script src="script.js"></script>
@@ -47,16 +48,16 @@
 
     </div>   
 
-    <!---------------- Back to top button --------------->
+    <!--------------------------------- Back to top button ----------------------------------->
       
       <a id="button"></a>
 
-    <!----------------- Video LAM ----------------------->
+    <!----------------------------------- Video LAM --------------------------------------------->
     <div  class="over-lam-en-video">    
       <div class="row">
-        <h1><a id="overLamm">Beleef het LAM | Ontdek het LAM Lisse museum</a></h1>
+        <h1 style="text-align: center;"><a id="overLamm">Beleef het LAM | Ontdek het LAM Lisse museum</a></h1>
         <div class="column">
-          <p>Voel je welkom in het LAM. <br> Hét foodart museum in Nederland en dé plek om samen anders te kijken. <br> De collectie is van wereldniveau, met kunstwerken van o.a. Ron Mueck, Itamar Gilboa, Yinka Shonibare. <br>Met onze super persoonlijke aanpak krijgt iedere bezoeker een VIP-ervaring.<br> We ontvangen je met open armen en geven je tijdens je ontdekkingstocht steeds tips en uitdagingen op maat. <br>Of je nu kind of volwassene bent; wij zorgen dat je je thuis voelt. <br>Je vindt het LAM op het historische Landgoed Keukenhof, tegenover de beroemde bloemententoonstelling en op steenworp afstand van Kasteel Keukenhof.</p>
+          <p style="padding-left: 20px;">Voel je welkom in het LAM. <br> Hét foodart museum in Nederland en dé plek om samen anders te kijken. <br> De collectie is van wereldniveau, met kunstwerken van o.a. Ron Mueck, Itamar Gilboa, Yinka Shonibare. <br>Met onze super persoonlijke aanpak krijgt iedere bezoeker een VIP-ervaring.<br> We ontvangen je met open armen en geven je tijdens je ontdekkingstocht steeds tips en uitdagingen op maat. <br>Of je nu kind of volwassene bent; wij zorgen dat je je thuis voelt. <br>Je vindt het LAM op het historische Landgoed Keukenhof, tegenover de beroemde bloemententoonstelling en op steenworp afstand van Kasteel Keukenhof.</p>
         </div>
         <div class="column">
           <p>Kaartjes met starttijd reserveer je gemakkelijk en snel via de website. <br><strong> Jij bepaalt wie er betaalt.</strong><br> <strong>Gratis, ruime en makkelijke parkeerplaatsen.</strong> <br> Of je nu kind of volwassene bent; wij zorgen dat je je thuis voelt.<br> Je vindt het LAM op het historische Landgoed Keukenhof, tegenover de beroemde bloemententoonstelling en op steenworp afstand van Kasteel Keukenhof.<br> Kaartjes met starttijd reserveer je gemakkelijk en snel via de website. </p>
@@ -65,13 +66,72 @@
       </div>
     </div>    
   </div>
-<!-------------------------- Collectie en reviews -------------------------------->
+<!----------------------------------- Collectie en reviews ------------------------------------->
   <div class="collectie-en-reviews">
     <div class="onze-collectie">
-      <p><a id="collectiem">&nbsp;<br>&nbsp;</a>
-      </p>
-    </div>
-<!-------------------------- Reviews --------------------------------->
+      <p><a id="collectiem">&nbsp;<br>&nbsp;</a></p>
+     
+     
+<!------------------------------------ Collectie ----------------------------------------------->
+ 
+
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/image10.jpg" style="width:100%">
+    <div class="text1">Kunstwerk</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/image9.jpg" style="width:100%">
+    <div class="text1">Kunstwerk</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/image8.jpeg" style="width:100%">
+    <div class="text1">Kunstwerk</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/image7.jpg" style="width:100%">
+    <div class="text1">Kunstwerk</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/image6.jpeg" style="width:100%">
+    <div class="text1">Kunstwerk</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/image5.jpg" style="width:100%">
+    <div class="text1">Kunstwerk</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div> 
+
+<!-------------------------------------- Reviews ------------------------------------------------>
     <div class="testiSlide">
       <div>
         <a id="reviewsm"></a>
@@ -140,19 +200,82 @@
 
   </div>
     
-  <div>
-    <a id="quiz"></a>
-  </div>
-  <!-------------------------------------- Contacts -------------------------------------------->
+  
+  <!-------------------------------------- Quiz -------------------------------------------->
+  
+   
+  <h3 style="color: white;"><strong>Welk kunstwerk ben jij?</strong></h3> <br>
+
+    <form name="quiz">
+
+    
+    <h4 style="color: white;">1. Wie is je favoriete kunstenaar?</h4>
+    <ul class="q1-inputs" style="margin-top: 1pt">
+      <li style="color: white;"><input type="radio" name="q1" value="Vincent van Gogh.">Vincent van Gogh.</li>
+      <li style="color: white;"><input type="radio" name="q1" value="Rembrandt.">Rembrandt.</li>
+      <li style="color: white;"><input type="radio" name="q1" value="Pablo Picasso.">Pablo Picasso.</li>
+      <span class="hidden" style="color:rgb(0, 0, 0);"></span>
+    </ul>
+    
+    
+    
+    <h4 style="color: white;">2. Sign L9 warns you about... ahead.</h4>
+    <ul style="margin-top: 1pt">
+      <li style="color: white;"><input type="radio" name="q2" value="Where you are also not allowed to park."> Where you are also not allowed to park..</li>
+      <li style="color: white;"><input type="radio" name="q2" value="A railway crossing">A railway crossing</li>
+      <li style="color: white;"><input type="radio" name="q2" value="Road which cross">Road which cross</li>
+    </ul>
+    
+    
+    
+    <h4 style="color: white;">3. Under what circumstances, if any, are you allowed to drive your motor motor vehicle on the right-hand side of a public road with traffic moving in both directions?</h4>
+    <ul style="margin-top: 1pt">
+      <li style="color: white;"><input type="radio" name="q3" value="When you switch the emergency lights of your vehicle on.">When you switch the emergency lights of your vehicle on.</li>
+      <li style="color: white;"><input type="radio" name="q3" value="When a traffic officer order you to do so.">When a traffic officer order you to do so.</li>
+      <li style="color: white;"><input type="radio" name="q3" value="Under no circumstance.">Under no circumstance.</li>
+    </ul>
+    
+    
+    
+    <h4 style="color: white;">4. Sign CC9 is found at ..</h4>
+    <ul style="margin-top: 1pt">
+      <li style="color: white;"><input type="radio" name="q4" value="Traffic circle where right of way is applicable.">Traffic circle where right of way is applicable.</li>
+      <li style="color: white;"><input type="radio" name="q4" value="Dangerous place where roadwork is being done.">Dangerous place where roadwork is being done.</li>
+      <li style="color: white;"><input type="radio" name="q4" value="Sharp curve to the right.">Sharp curve to the right.</li>
+    </ul>
+    
+
+
+    <h4 style="color: white;">5. You may not obtain a learner’s license if...</h4>
+    <ul style="margin-top: 1pt">
+      <li style="color: white;"><input type="radio" name="q5" value="A first-aid post."> A first-aid post.</li>
+      <li style="color: white;"><input type="radio" name="q5" value="A railway crossing">A railway crossing</li>
+      <li style="color: white;"><input type="radio" name="q5" value="Road which cross">Road which cross</li>
+    </ul>
+    
+    
+    <!----------------- _ Score _ ------------------------>
+    
+    
+    <input type="button" value="Get score" onClick="getScore(this.form)">
+    <input type="reset" value="Clear answers">
+    <p style="color: white;"> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong><br><br>
+    Jij bent dit schilderij:<br>
+    <textarea class="bgclr" name="solutions" wrap="virtual" rows="10" cols="100" disabled>
+    </textarea>
+    </form>
+  
+  
+    <!-------------------------------------- Contacts -------------------------------------------->
   <footer>
     
-    <p style="float: left;"><a id="contactsm">Keukenhof 14 2161 AN Lisse<br>
+    <p style="float: left;"><a id="contactsm">Keukenhof 14 <br>
                          Postbus 224<br>
-                         2170 AE Sassenheim<br>
+                         2161 AN Lisse<br>
                          0252 508 800<br>
                          info@lamlisse.nl
     </a></p>
-    <div style= "float: right;"  ><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=200&amp;hl=en&amp;q=+(Lam%20Museum)&amp;t=k&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="400" height="200" frameborder="0"></iframe></div>
+    <div style= "float: right; "><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=200&amp;hl=en&amp;q=+(Lam%20Museum)&amp;t=k&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="400" height="200" frameborder="0"></iframe></div>
     
   </footer>
 
