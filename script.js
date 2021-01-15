@@ -85,22 +85,19 @@ btn.on('click', function(e) {
 //-------------------------- Quiz ------------------------------------------------
 
 
-// Insert scooter questions number of questions
 var numQues = 5;
         
-// Insert number of choices in each question
 var numChoi = 3;
 
-// Insert number of questions displayed in answer area
 var answers = new Array(5);
 
-// Insert answers to questions
-answers[0] = "Rembrandt.";
-answers[1] = "Road which cross.";
-answers[2] = "When a traffic officer order you to do so.";
-answers[3] = "Traffic circle where right of way is applicable.";
-answers[4] = "(i), (ii) and (iii)";
-answers[5] = "A marked pedestrian crossing ahead.";
+//---- antwoorden ----
+answers[0] = "Rembrandt"; 
+answers[1] = "Het Offer van Abraham";
+answers[2] = "Abstracte kunstwerken";
+answers[3] = "Rood";
+answers[4] = "Een museum met jouw interesses";
+answers[5] = "";
 
 
 function getScore(form) {
@@ -145,6 +142,5 @@ function showCorrectAnswers() {
         }
     });
 }
-
 
 //-------------------------------------  End -----------------------------------------
